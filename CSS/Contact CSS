@@ -1,0 +1,75 @@
+*    {
+    box-sizing:border-box;
+}
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color:#F0FFFF;
+ }
+header {
+      background-color: #B0E0E6 ;
+      padding: 1rem;
+      text-align: center;
+}
+nav {
+      margin: 0.5rem 0;
+}
+nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #333;
+}
+nav {
+      font-weight: bold;
+}
+main {
+      display: flex;
+      padding: 1rem;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+
+.contact-form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.form-group {
+    margin-bottom: 1rem;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+footer {
+    bottom:0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
